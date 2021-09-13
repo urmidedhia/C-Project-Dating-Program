@@ -1,0 +1,56 @@
+Details:	(* - include in preferences)
+1.	Name : “ “
+2.	Age* : “ “ (Check if lies in group 1/2/3/4/5/6/7)
+    Ranges : 
+    1.	18-24
+    2.	25-31
+    3.	32-39
+    4.	40-48
+    5.	49-58
+    6.	59-69
+    7.	69+
+3.	Sex* : M/F/Other (Check if lies in group 1/2/3)
+4.	Phone No. : 
+5.	What is your professional status? “ ”
+6.	Sexual orientation* : (Check if lies in group 1/2/3/4)
+    1.	Straight
+    2.	Gay
+    3.	Lesbian
+    4.	Bisexual
+7.	Are you an introvert(1), extrovert(2) or ambivert(3)?* (Check if lies in group 1/2/3)
+8.	Do you have a pet/pets or not?* (Check if lies in group 1/2)
+    1.	Yes
+    2.	No
+9.	Which is the closest to your idea of a perfect date
+    1.	Spending an evening at a beach
+    2.	Watching a movie at a theatre
+    3.	Having brunch at a restaurant
+    4.	Playing games at an arcade
+    5.	Spending a day at an amusement park
+    6.	Going on a trek
+
+userdeets :
+0 - Age group
+1 - Sex #
+2 - Sexual orientation #
+3 - Intro/extrovert
+4 - pet
+5 - Date
+6 - age #
+
+user.pref[6] = preferences
+Details.txt- objects= details
+
+sex  orientation
+M 1  1 Straight - f Straight, f bisexual
+     2 Gay - m Gay, m bisexual
+     4 Bisexual - m gay, f straight, m bisexual, f bisexual
+F 2    Straight - m Straight, m bisexual
+     3 Lesbian - f Lesbian, f bisexual
+       Bisexual - f Lesbian, m straight, m bisexual, f bisexual
+O 3    Straight - o Straight, o Bisexual
+       Gay - o Gay, o Bisexual
+       Lesbian - o Lesbian, o Bisexual
+       Bisexual - o Bisexual, o gay, o lesbian, o straight
+
+       
